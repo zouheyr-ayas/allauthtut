@@ -144,9 +144,20 @@ UTHENTICATION_BACKENDS = [
 
 ACCOUNT_EMAIL_REQUIRED= True      # for pass reset  
 
-ACCOUNT_EMAIL_VERIFICATION = 'none'      # set to <mandatory> to force email verif 
+ACCOUNT_EMAIL_VERIFICATION = 'mandatory'      # set to <mandatory> to force email verif default 'none'
+
+#  mot de passe gmail
+# ylvz sxsr ajui aeio
 
 LOGIN_REDIRECT_URL='/'
+
+#  configurqtio email for password reset
+MAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend' #new
+EMAIL_HOST = 'smtp.gmail.com' #new
+EMAIL_PORT = 587 #new
+EMAIL_HOST_USER = 'ayas.zouheyr@gmail.com'  #new
+EMAIL_HOST_PASSWORD = "ylvz sxsr ajui aeio" #new
+EMAIL_USE_TLS = True #new
 
 
 
