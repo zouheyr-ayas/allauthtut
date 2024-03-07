@@ -151,13 +151,6 @@ ACCOUNT_EMAIL_VERIFICATION = 'mandatory'      # set to <mandatory> to force emai
 
 LOGIN_REDIRECT_URL='/'
 
-#  configurqtio email for password reset
-MAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend' #new
-EMAIL_HOST = 'smtp.gmail.com' #new
-EMAIL_PORT = 587 #new
-EMAIL_HOST_USER = 'ayas.zouheyr@gmail.com'  #new
-EMAIL_HOST_PASSWORD = "ylvz sxsr ajui aeio" #new
-EMAIL_USE_TLS = True #new
 
 
 
